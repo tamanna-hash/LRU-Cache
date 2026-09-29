@@ -42,3 +42,31 @@ The assessment requires a complete AI_PROMPT_HISTORY.txt file in the Git reposit
 ---
 
 --- ADD NEW PROMPTS BELOW THIS LINE ---
+
+---
+[4] Kiro
+PROMPT:
+Create a manual test file
+
+Create a file named manual-test.ts in your LRU project. Adjust the import path and class name to match your actual implementation.
+
+import { LRUCache } from "./LRUCache";
+
+const cache = new LRUCache(2);
+
+cache.put("A", 10);
+cache.put("B", 20);
+
+console.log(cache.get("A")); // Expected: 10
+
+cache.put("C", 30); // Should evict B
+
+console.log(cache.get("B")); // Expected: -1
+console.log(cache.get("C")); // Expected: 30
+console.log(cache.get("A")); // Expected: 10
+---
+
+[5] Kiro
+PROMPT:
+update the ai prompt history.txt
+---
