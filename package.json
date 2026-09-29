@@ -1,0 +1,23 @@
+{
+  "name": "vecosoft-lru-cache",
+  "version": "1.0.0",
+  "description": "LRU Cache implementation in TypeScript with O(1) get and put operations",
+  "main": "dist/LRUCache.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npx jest --no-coverage",
+    "test:watch": "npx jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "typescript": "^5.5.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": ["**/src/**/*.test.ts"]
+  }
+}

@@ -1,0 +1,44 @@
+AI PROMPT HISTORY
+=================
+Repository: vecosoft-lru-cache
+Purpose: Record of all prompts sent to AI tools during this assessment, in chronological order.
+
+INSTRUCTIONS FOR COMPLETION
+-----------------------------
+Append every prompt you sent to Kiro (or any other AI tool) during this assessment,
+exactly as typed — no rewrites, summaries, or omissions.
+
+Format each entry as:
+
+---
+[SEQUENCE NUMBER] [TOOL NAME] [DATE / TIME if known]
+PROMPT:
+<paste the exact prompt here>
+---
+
+Do not paraphrase. Do not merge multiple prompts into one entry.
+Do not skip prompts even if they seem minor or off-topic.
+
+===============================================================
+PROMPTS — append below this line in chronological order
+===============================================================
+
+---
+[1] Kiro
+PROMPT:
+I am completing a developer job assessment with a strict 3-hour time limit. First, inspect the current workspace and its existing files. Do not overwrite or delete existing work. I need to complete a responsive Order Tracking UI for three scenarios, an LRU Cache with average O(1) get and put operations, and a 100–200-word algorithm explanation. The Figma task is optional. Recommend a minimal project structure that is easy to test and deploy. If the workspace is empty, initialize a React + TypeScript + Tailwind CSS app for Task 1 and reserve a separate lru-cache/ directory for Task 2. Avoid unnecessary dependencies and elaborate architecture. Tell me what you plan to create, then proceed with the setup.
+---
+
+---
+[2] Kiro
+PROMPT:
+I have decided to submit Task 1 and Task 2 as two separate GitHub repositories. Task 1 will be in vecosoft-order-tracking, a React + TypeScript + Tailwind CSS project containing the three required order-tracking states and the deployable UI. Task 2 will be in vecosoft-lru-cache, a standalone TypeScript + Node.js project containing the LRU cache, automated tests, README, and a place for the Task 3 algorithm explanation. Do not combine the projects into one Git repository. Inspect the current workspace and continue only with the task this workspace is intended for. Preserve existing work, avoid unnecessary dependencies, and prioritize completing the required assessment within my three-hour time limit.
+---
+
+---
+[3] Kiro
+PROMPT:
+The assessment requires a complete AI_PROMPT_HISTORY.txt file in the Git repository. Do not claim to automatically capture prompts from other AI tools or conversations. Create this file in the current repository, and remind me to append the exact prompts I send to Kiro and any other AI tool used for this assessment, in chronological order. Do not fabricate, rewrite, summarize, or omit prompts. Before final submission, verify that the file exists and is committed to Git.
+---
+
+--- ADD NEW PROMPTS BELOW THIS LINE ---
