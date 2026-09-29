@@ -16,7 +16,7 @@ Two structures work together to keep both operations at O(1) average time:
 
 Both operations touch a fixed number of pointers and perform one HashMap access, with no iteration, giving O(1) time and O(n) space.
 
-## Assessment Answer
+## Algorithm Explanation & Critical Thinking
 
 The cache combines two data structures: a `Map` and a doubly linked list. The `Map` gives O(1) lookup by key, and the linked list maintains access order — the most recently used entry sits at the front, the least recently used at the back. Two sentinel nodes (head and tail) simplify insertion and removal by eliminating edge-case checks for empty or single-item lists.
 
